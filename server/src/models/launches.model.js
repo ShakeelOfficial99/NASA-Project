@@ -38,7 +38,6 @@ function addNewLaunch(launch){
 }
 
 function abortLaunchById(launchId){
-    // launch.delete(launchId) // it deletes the whole object entirely 
 
     const aborted = launches.get(launchId);
     aborted.upcoming = false;
