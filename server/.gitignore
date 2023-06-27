@@ -1,0 +1,70 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+*.swp
+*~
+.vscode/
+
+# Ignore dependencies
+node_modules/
+package-lock.json
+npm-debug.log
+yarn.lock
+
+# Ignore build output
+build/
+dist/
+out/
+bin/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore configuration files
+config.js
+config.json
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Ignore database files
+*.db
+*.sqlite
+*.db-journal
+
+# Ignore cache directories
+.cache/
+.tmp/
+
+# Ignore API keys and secrets
+secrets.js
+secrets.json
+
+# Ignore sensitive information
+private.key
+private.pem
+
+# Ignore generated files
+*.cert
+*.key
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+
+# Ignore system-specific files
+Thumbs.db
+.DS_Store
